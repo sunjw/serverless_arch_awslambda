@@ -11,7 +11,7 @@ Resources:
     Properties:
       Handler: com.github.fenixsoft.StreamLambdaHandler::handleRequest
       Runtime: java8
-      CodeUri: target/bookstore-serverless-awslambda-1.0-SNAPSHOT-lambda-package.zip
+      CodeUri: target/bookstore-serverless-awslambda-1.0-SNAPSHOT.jar
       MemorySize: 512
       Policies: AWSLambdaBasicExecutionRole
       Timeout: 30
